@@ -54,6 +54,4 @@ public class UsuarioModel implements UserDetails {
     public String getUsername() {
         return getEmail();
     }
-
-
 }
